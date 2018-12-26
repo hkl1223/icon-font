@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'xianrenzhang';  /* project id 983117 */
+    src: url('//at.alicdn.com/t/font_983117_pfltlr9tvy.eot');
+    src: url('//at.alicdn.com/t/font_983117_pfltlr9tvy.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_983117_pfltlr9tvy.woff') format('woff'),
+    url('//at.alicdn.com/t/font_983117_pfltlr9tvy.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_983117_pfltlr9tvy.svg#iconfont') format('svg');
+  }
+
+  p{
+    font-family:xianrenzhang;
+    font-size:40px;
+    color:red;
+  
+  }
+    .icon {
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+        background: transparent url(./sss.png) no-repeat;
+        display: inline-block;
+    }
+    .icon.yezi{
+        width: 120px;
+        border: none;
+    }
+    .icon.xiaolu{
+        background-position: -100px 0px;
+        border: none;
+    }
